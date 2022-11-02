@@ -4,11 +4,21 @@
 
 <div id="beers">
   <% @beers.each do |beer| %>
-    <%= render beer %>
+    <!--<%= render beer %>-->
     <p>
-      <%= link_to "Show this beer", beer %>
+      <%= link_to "#{beer.name}", beer %>
+    </p>
+    <p>
+    Style : <%= beer.style %>
+    </p>
+    <p>
+    <%= link_to "#{beer.brewery.name}", beer.brewery %>
     </p>
   <% end %>
 </div>
 
 <%= link_to "New beer", new_beer_path %>
+
+<p>
+<%= link_to 'List of breweries', breweries_path %>
+</p>
