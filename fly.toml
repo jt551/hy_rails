@@ -1,6 +1,6 @@
-# fly.toml file generated for shy-dew-2403 on 2022-11-03T12:04:07+02:00
+# fly.toml file generated for twilight-star-1060 on 2022-11-03T19:46:18+02:00
 
-app = "shy-dew-2403"
+app = "twilight-star-1060"
 kill_signal = "SIGINT"
 kill_timeout = 5
 processes = []
