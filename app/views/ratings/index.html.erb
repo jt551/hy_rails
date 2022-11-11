@@ -1,0 +1,9 @@
+<h2>List of ratings</h2>
+
+<p>To be completed...</p>
+<h4>Total ratings : <%= @ratings.count %></h4>
+<ul>
+ <% @ratings.each do |rating| %>
+   <li> <%= rating.score %> </li>
+ <% end %>
+</ul>
